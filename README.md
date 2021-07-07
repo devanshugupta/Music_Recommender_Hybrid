@@ -1,9 +1,10 @@
 # MusicRecommenderSystem
-Heavy research based project that works with hindi, english language as well as regional based songs, even with the mixed playlist, using content based filtering. 
+Heavy research based project that works with hindi, english language as well as regional based songs, even with a mixed playlist, using content based filtering. 
 Provided a collaborative based filtering method but due to no users only the means has been provided i.e. MySQL database for all user data and history of playlists and rating by the user. 
 
+The data collected has been on our own and tarining is also done on local systems.
 
-Also provides a login system and signup process for existing users to check their listening history. 
+Also provided a login and signup process for users and other advanced feature. But i'm here to discuss the implementation of such or any recommendation system (they are all the same in the working). 
 # Data
 This project takes in training data of about 10000 songs each cropped to 30 secs for our purpose, can be more, and their respective artist, date period, genre, sub genre, language, and other metadata like - tempo, chords, MFCC, spectral features, and similar 30 features appx. 
 Any new song can be added by downloading and the program will automatically extract features and add the song to the database.
