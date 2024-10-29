@@ -1,13 +1,14 @@
-# MusicRecommenderSystem 
-Heavy research based project that works with hindi, english language as well as regional based songs, even with a mixed playlist, using content based filtering. 
-Provided a collaborative based filtering method but due to no users only the means has been provided i.e. MySQL database for all user data and history of playlists and rating by the user. 
+# MusicRecommenderSystem using Spotify API Dataset
+## Heavy research based project that works with english language as well as hindi songs, pioneering a novel task of a mixed playlist, using content based filtering. 
+- Provided a collaborative based filtering method but due to no users only the means has been provided i.e. MySQL database for all user data and history of playlists and rating by the user. 
 
-The data collected has been on our own and tarining is also done on local systems.
+- The data collected has been on our own and tarining is also done on local systems.
 
-Also provided a login and signup process for users and other advanced feature. But i'm here to discuss the implementation of such or any recommendation system (they are all the same in the working). 
+- Also provided a login and signup process for users and other advanced feature. But i'm here to discuss the implementation of such or any recommendation system (they are all the same in the working).
+  
 # Data
-This project takes in training data of about 10000 songs each cropped to 30 secs for our purpose, can be more, and their respective artist, date period, genre, sub genre, language, and other metadata like - tempo, chords, MFCC, spectral features, and similar 30 features appx. 
-Any new song can be added by downloading and the program will automatically extract features and add the song to the database.
+This project takes in training data of about 10000 songs for our purpose, and their respective artist, date period, genre, sub genre, language, and other metadata like - tempo, chords, MFCC, spectral features, and similar 30 features appx. 
+- Any new song can be added by downloading and the program will automatically extract features and add the song to the database.
 # Method
 1.First we address the cold start problem which says that any new user with no previous data will not be provided with accurate recommendations. For that we ask the user to select their preferences and make a playlist based on which we will recommend songs.
 
